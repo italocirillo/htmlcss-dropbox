@@ -4,6 +4,15 @@
     margin: 0;
     box-sizing: border-box;
 }
-body{
-    background-color: aqua;
+
+/* HEADER */
+header{
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    right: 0;
+
+    /* debug */
+    background-color: cyan;
 }
