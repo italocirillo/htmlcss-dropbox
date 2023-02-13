@@ -22,11 +22,10 @@ header{
     margin:0 auto;
 }
 
-/*Scritte*/
-h1{
-    margin-top: 100px;
+/* IN COMUNE */
+body{
+    background-color: lightsteelblue;
 }
-/* MAIN */
 
 /* Contenitori */
 .contenitore{
@@ -45,12 +44,6 @@ h1{
     margin-top: 10px;
 }
 
-/* jumbotron */
-.jumbotron{
-    background-color: #b4d0e7;
-    padding-top: 80px;
-}
-
 /*box*/
 .box{
     /*debug*/
@@ -62,7 +55,22 @@ h1{
     height: 100px;
 }
 
-/*QUADRATI UNIVERSITÀ*/
+ul{
+    list-style-type: none;
+}
+/*Scritte*/
+h1{
+    margin-top: 100px;
+}
+/* MAIN */
+
+/* jumbotron */
+.jumbotron{
+    background-color: #b4d0e7;
+    padding-top: 80px;
+}
+
+/*Quadrati università*/
 .colonna{
     display: flex;
     flex-wrap: wrap;
@@ -74,13 +82,31 @@ h1{
 }
  
 .quadrato-grande{
-    /* border: 2px solid blue;  */
     height: calc(100vw / 3);
     width: calc(100vW / 3);
 
     display: flex;
     flex-wrap: wrap;
 }
+
+/* FOOTER */
+
+footer{
+    background-color: #000000;
+}
+.menu{
+    display: flex;
+}
+.sottomenu{
+    width: 20%;
+    border: 1px solid green ;
+
+    /*debug*/
+    height: 100%;
+}
+
+
+
 /* DEBUG */
 .box-debug{
     border: 5px solid red;
@@ -96,4 +122,8 @@ h1{
 }
 .box-debug3{
     border: 5px solid green;
+}
+.box-debug4{
+    border: 5px solid red;
+    height: 250px;
 }
