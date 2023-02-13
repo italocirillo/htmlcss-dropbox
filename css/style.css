@@ -16,3 +16,24 @@ header{
     /* debug */
     background-color: cyan;
 }
+
+/* MAIN */
+main{
+    width: 100%;
+    margin-top: 60px auto 0;
+}
+.contenitore{
+    width: 60%;
+    max-width: 1200px;
+    margin: auto;
+    padding-top: 100px;
+    
+    
+
+    /* debug */
+    height: 1000px;
+    border: 1px solid black;
+}
+.contenitore-interno{
+    width: 80%;
+}
