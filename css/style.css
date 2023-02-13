@@ -62,6 +62,25 @@ h1{
     height: 100px;
 }
 
+/*QUADRATI UNIVERSITÀ*/
+.colonna{
+    display: flex;
+    flex-wrap: wrap;
+}
+.quadrato{
+    border: 2px solid red;
+    height: calc(100vw / 6);
+    width: calc(100vW / 6);
+}
+ 
+.quadrato-grande{
+    /* border: 2px solid blue;  */
+    height: calc(100vw / 3);
+    width: calc(100vW / 3);
+
+    display: flex;
+    flex-wrap: wrap;
+}
 /* DEBUG */
 .box-debug{
     border: 5px solid red;
@@ -70,4 +89,11 @@ h1{
 .box-debug1{
     border: 5px solid blue;
     height: 500px;
+}
+.box-debug2{
+    border: 5px solid blue;
+    height: 100px;
+}
+.box-debug3{
+    border: 5px solid green;
 }
