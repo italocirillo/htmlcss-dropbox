@@ -150,6 +150,7 @@ header{
     width: 100%;
     height: 80px;
     position: fixed;
+    z-index: 1;
     top: 0;
     right: 0;
     line-height: 80px;
@@ -204,17 +205,16 @@ header a{
 .carta-operazioni{
     border: none;
 }
+
 /*Quadrati università*/
 .colonna{
     display: flex;
     flex-wrap: wrap;
 }
 .quadrato{
-    border: 2px solid red;
     height: calc(100vw / 6);
     width: calc(100vW / 6);
 }
- 
 .quadrato-grande{
     height: calc(100vw / 3);
     width: calc(100vW / 3);
@@ -222,8 +222,44 @@ header a{
     display: flex;
     flex-wrap: wrap;
 }
-
-
+.università{
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+.designit{
+    border: 10px solid #d2e9cd;
+    background-color: #a2d39b;
+    background-image: url(../img/designit.svg);
+}
+.arizona{
+    background-color: #62092b;
+    background-image: url(../img/arizona_state_university.svg);
+}
+.florida{
+    background-color: #0293ce;
+    background-image: url(../img/university_of_florida.svg);
+}
+.topps{
+    background-color: #ff1b1c;
+    background-image: url(../img/topps.svg);
+}
+.bicycle{
+    background-color: #d5011f;
+    background-image: url(../img/world_bicycle_relief.svg);
+}
+.heart{
+    background-color: #b4d0e7;
+    background-image: url(../img/hearst_corp.svg);
+}
+.planet{
+    background-color: #0d2381;
+    background-image: url(../img/lonely_planet.svg);
+}
+.clear{
+    background-color: #ffd72f;
+    background-image: url(../img/clear_channel.svg);
+}
 /* FOOTER */
 
 footer{
