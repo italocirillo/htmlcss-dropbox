@@ -4,19 +4,16 @@
     margin: 0;
     box-sizing: border-box;
 }
-
 body{
-    background-color: lightsteelblue;               /*debug*/
     font-family: 'Open Sans', sans-serif;
 }
-
 ul{
     list-style-type: none;
 }
-
 img{
     max-width:100%;
 }
+
 
 /* HEADER */
 header{
@@ -41,6 +38,8 @@ header a{
     padding: 1em;
     color: #6a6a6a;
 }
+
+
 /* UTILITY */
 .centratura{
     margin:0 auto;
@@ -55,22 +54,14 @@ header a{
     align-items: center;
 }
 
+
 /* IN COMUNE */
-.bottone{
-    background-color: #0160ff;
-    color: white;
-    padding: 0.5em 1em;
-}
+
 /* Contenitori */
 .contenitore{
     width: 60%;
     max-width: 1200px;
     margin: auto;
-    
-    
-
-    /* debug */
-    border: 1px solid black;
 }
 .contenitore-interno{
     width: 50%;
@@ -78,18 +69,39 @@ header a{
     margin-top: 10px;
 }
 
-/*box*/
 .box{
-    /*debug*/
     width: 100%;
-    border: 5px solid blue;
-    margin: 10px 0;
-
-    /*debug*/
-    height: 100px;
+    
+}
+.bottone{
+    background-color: #0160ff;
+    color: white;
+    padding: 0.5em 1em;
+    text-decoration: none;
+}
+.col-40{
+    width: 40%;
+}
+.padding-top-bottom{
+    padding: 2em 0em;
 }
 
-/*Scritte*/
+
+
+
+/*TIPOGRAFIA*/
+.titolo{
+    font-size: 3rem;
+    padding: 3rem 0rem;
+}
+.col-40 p{
+    padding-bottom: 2em;
+    padding-right: 1em;
+}
+/* icone */
+i{
+    font-size: 2.5rem;
+}
 
 /* MAIN */
 
@@ -97,6 +109,11 @@ header a{
 .jumbotron{
     background-color: #b4d0e7;
     padding-top: 80px;
+}
+.immagine-jumbo{
+    width: 60%;
+    translate: 15px 30px;
+    transform: scale(1.2);
 }
 
 /*Quadrati università*/
@@ -118,6 +135,7 @@ header a{
     flex-wrap: wrap;
 }
 
+
 /* FOOTER */
 
 footer{
@@ -137,6 +155,8 @@ footer{
 
 
 /* DEBUG */
+/*box*/
+
 .box-debug{
     border: 5px solid red;
     height: 500px;
