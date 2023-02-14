@@ -28,7 +28,23 @@ img{
 .align-center{
     align-items: center;
 }
+.center{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    vertical-align: center;
+    padding: 0.5rem 0rem;
+}
+.padding-generale{
+    padding: 1em;
+}
+.padding-verticale-1{
+    padding: 1em 0em;
+}
 
+.padding-verticale-2{
+    padding: 2em 0em;
+}
 
 /* IN COMUNE */
 
@@ -43,6 +59,25 @@ img{
     max-width: 1000px;
     margin-top: 10px;
 }
+.col{
+    justify-content: space-between;
+}
+.col-40{
+    width: 40%;
+}
+.carta{
+    border: 1px solid #d9d9db;
+    width: calc((100% / 3) - 1rem);
+}
+.carta-orizzontale{
+    width: 100%;
+}
+hr{
+    border: 0.5px solid #d9d9db;
+}
+.linea-corta{
+    width: 30%;
+}
 .box{
     width: 100%;
     
@@ -51,17 +86,15 @@ img{
     background-color: #0160ff;
     color: white;
     padding: 0.5em 1em;
+    font-size: 0.8rem;
     text-decoration: none;
+   
 }
-.col-40{
-    width: 40%;
-}
-.padding-top-bottom{
-    padding: 2em 0em;
-}
+
 
 
 /*TIPOGRAFIA*/
+
 .titolo{
     font-size: 3rem;
     padding: 3rem 0rem;
@@ -71,12 +104,34 @@ img{
     padding-right: 1em;
 }
 /* icone */
-i{
+.jumbotron i{
     font-size: 2.5rem;
+}
+a{
+    color: blue;
+}
+i{
+    padding-right: 0.2rem;
+    font-size: 1rem;
 }
 h2{
     font-size: 2rem;
     padding-top: 3em;
+    padding-bottom: 1em;
+}
+strong{
+    font-size: 0.9rem;
+}
+.piano-mese{
+    color: #717475;
+    padding-bottom: 3em;
+}
+.testo-standard{
+    font-size: 0.8rem;
+    font-weight: 300;
+}
+.fa-check{
+    color: blue;
 }
 
 /* HEADER */
@@ -118,7 +173,12 @@ header a{
 /* piani di acquisto */
 .scelta-piani{
     padding-right: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
     color: #5d5f5c;
+}
+.utenti{
+    font-size: 0.1;
 }
 
 /*Quadrati università*/
