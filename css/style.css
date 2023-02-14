@@ -15,31 +15,6 @@ img{
 }
 
 
-/* HEADER */
-header{
-    width: 100%;
-    height: 80px;
-    position: fixed;
-    top: 0;
-    right: 0;
-    line-height: 80px;
-    padding: 0em 1.5em;
-
-    background-color: #ffffff;
-}
-header img{
-    height: 40%;
-}
-nav{
-    width: 100%;
-}
-header a{
-    text-decoration: none;
-    padding: 1em;
-    color: #6a6a6a;
-}
-
-
 /* UTILITY */
 .centratura{
     margin:0 auto;
@@ -68,7 +43,6 @@ header a{
     max-width: 1000px;
     margin-top: 10px;
 }
-
 .box{
     width: 100%;
     
@@ -87,8 +61,6 @@ header a{
 }
 
 
-
-
 /*TIPOGRAFIA*/
 .titolo{
     font-size: 3rem;
@@ -102,6 +74,34 @@ header a{
 i{
     font-size: 2.5rem;
 }
+h2{
+    font-size: 2rem;
+    padding-top: 3em;
+}
+
+/* HEADER */
+header{
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    line-height: 80px;
+    padding: 0em 1.5em;
+
+    background-color: #ffffff;
+}
+header img{
+    height: 40%;
+}
+nav{
+    width: 100%;
+}
+header a{
+    text-decoration: none;
+    padding: 1em;
+    color: #6a6a6a;
+}
 
 /* MAIN */
 
@@ -114,6 +114,11 @@ i{
     width: 60%;
     translate: 15px 30px;
     transform: scale(1.2);
+}
+/* piani di acquisto */
+.scelta-piani{
+    padding-right: 2em;
+    color: #5d5f5c;
 }
 
 /*Quadrati università*/
@@ -151,6 +156,8 @@ footer{
     /*debug*/
     height: 100%;
 }
+
+
 
 
 
