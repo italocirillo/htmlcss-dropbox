@@ -38,6 +38,12 @@ img{
 .padding-generale{
     padding: 1em;
 }
+.padding-generale-2{
+    padding: 2em;
+}
+.padding-verticale-0{
+    padding: 0.5em;
+}
 .padding-verticale-1{
     padding: 1em 0em;
 }
@@ -61,9 +67,13 @@ img{
 }
 .col{
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .col-40{
     width: 40%;
+}
+.col-60{
+    width: 60%;
 }
 .carta{
     border: 1px solid #d9d9db;
@@ -71,6 +81,7 @@ img{
 }
 .carta-orizzontale{
     width: 100%;
+    margin: 2em 0em;
 }
 hr{
     border: 0.5px solid #d9d9db;
@@ -115,7 +126,7 @@ i{
     font-size: 1rem;
 }
 h2{
-    font-size: 2rem;
+    font-size: 1.8rem;
     padding-top: 3em;
     padding-bottom: 1em;
 }
@@ -170,6 +181,7 @@ header a{
     translate: 15px 30px;
     transform: scale(1.2);
 }
+
 /* piani di acquisto */
 .scelta-piani{
     padding-right: 2em;
@@ -181,6 +193,17 @@ header a{
     font-size: 0.1;
 }
 
+/* Partner */
+.bottone-negativo{
+    border:1px solid #5d5f5c;
+    background-color: white;
+    color: #5d5f5c;
+}
+
+/* Operazioni */
+.carta-operazioni{
+    border: none;
+}
 /*Quadrati università*/
 .colonna{
     display: flex;
