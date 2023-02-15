@@ -441,3 +441,7 @@ footer ul{
 .domanda{
     display:none;
 }
+/*Effetto-bordo-header*/
+.effetto-bordo:hover{
+    border-bottom: 3px solid black ;
+}
