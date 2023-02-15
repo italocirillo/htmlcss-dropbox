@@ -28,6 +28,10 @@ img{
 .flex{
     display: flex;
 }
+.flex-end{
+    display: flex;
+    justify-content: flex-end;
+}
 .space-between{
     justify-content: space-between;
 }
@@ -51,7 +55,7 @@ img{
     padding: 2em;
 }
 .padding-verticale-0{
-    padding: 0.5em;
+    padding: 0.5em 0em;
 }
 .padding-verticale-1{
     padding: 1em 0em;
@@ -105,16 +109,21 @@ hr{
     border-top: 1px solid #d9d9db;
 }
 
+.linea-lunga{
+    width: 50%;
+    border: 0px;
+    border-top: 2px solid #c5c5c5;
+    padding-bottom: 2em;
+}
+
 .bottone{
     background-color: #0160ff;
     color: white;
     padding: 0.5em 1em;
     font-size: 0.8rem;
     text-decoration: none;
-
-   display: inline-block;
-   line-height: normal;
-   
+    display: inline-block;
+    line-height: normal; 
 }
 
 
@@ -192,8 +201,15 @@ strong{
     color: #62092b;
     padding-right: 2em;
 }
-.titolo-domande{
-    padding: 0em;
+.lingua{
+    color: #677072;
+    font-size: 0.8rem;
+}
+.titolo-lista-footer{
+    font-size: 1.2rem;
+}
+.punto-lista-footer{
+    font-size: 0.7rem;
 }
 /* HEADER */
 header{
@@ -246,15 +262,17 @@ header a{
 .dimensione-icona{
     font-size: 0.1;
 }
+.carta li{
+    position: relative;
+    padding-bottom: 2em;
+}
+.carta li p{
+    padding-left: 2em;
+}
 .posizione-icona{
     position: absolute;
     top: 0;
     left: 0;
-}
-.carta li{
-    position: relative;
-    padding-left: 1.5em;
-    padding-bottom: 2em;
 }
 /* Partner */
 .bottone-negativo{
@@ -350,21 +368,26 @@ header a{
 
 footer{
     background-color: #000000;
+    padding: 0em;
 }
 .menu{
     display: flex;
+    padding: 0em;
 }
 .sottomenu{
     width: 20%;
-    border: 1px solid green ;
-
-    /*debug*/
-    height: 100%;
+    padding-top: 4em 8em 1em 0em;
 }
-
-
-
-
+footer h3{
+    color: white;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}
+footer ul{
+    padding-bottom: 5em;
+}
 
 /* DEBUG */
 /*box*/
