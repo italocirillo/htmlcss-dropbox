@@ -77,7 +77,6 @@ img{
 .contenitore-interno{
     width: 50%;
     max-width: 1000px;
-    margin-top: 10px;
 }
 .col{
     justify-content: space-between;
@@ -185,6 +184,13 @@ strong{
     position: absolute;
     left: 8.3rem;
     top: 0.3rem;
+}
+.testo-call-to-action{
+    text-align: start;
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #62092b;
+    padding-right: 2em;
 }
 
 /* HEADER */
@@ -314,6 +320,18 @@ header a{
     background-color: #ffd72f;
     background-image: url(../img/clear_channel.svg);
 }
+
+/* Call to Action */
+.call-to-action{
+    background-color: #b4d0e7;
+    padding: 4em 0em;
+}
+.bottone-call-to-action{
+    background-color: white;
+    color: black;
+    padding: 0.5em 2em;
+}
+
 /* FOOTER */
 
 footer{
