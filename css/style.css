@@ -192,7 +192,9 @@ strong{
     color: #62092b;
     padding-right: 2em;
 }
-
+.titolo-domande{
+    padding: 0em;
+}
 /* HEADER */
 header{
     width: 100%;
@@ -332,6 +334,18 @@ header a{
     padding: 0.5em 2em;
 }
 
+/* Sezione domande */
+.sezione-domande li{
+    font-weight: 600;
+    border-top: 1px solid grey;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em 0em;
+}
+.sezione-domande ul:last-child{
+    border-bottom:1px solid grey;
+}
 /* FOOTER */
 
 footer{
