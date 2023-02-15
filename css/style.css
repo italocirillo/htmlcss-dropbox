@@ -356,7 +356,6 @@ header a{
 .sezione-domande li{
     font-weight: 600;
     border-top: 1px solid grey;
-    display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 1em 0em;
@@ -416,4 +415,29 @@ footer ul{
 /* EFFETTI */
 .bottone:hover{
     opacity: 0.5;
+}
+
+/*Domanda*/
+.paragrafo-a-comparsa{
+    padding: 2em 0em;
+    display: none;
+    font-size: 0.8rem;
+}
+.simbolo-a-comparsa{
+    visibility: hidden;
+}
+.simbolo-scomparso{
+    display: block;
+}
+.sezione-domande li:hover .paragrafo-a-comparsa{
+    display: block;
+}
+.sezione-domande li:hover .simbolo-scomparso{
+    display: none;
+}
+.sezione-domande li:hover .simbolo-a-comparsa{
+    visibility: visible;
+}
+.domanda{
+    display:none;
 }
