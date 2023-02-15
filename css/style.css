@@ -16,6 +16,12 @@ img{
 
 
 /* UTILITY */
+.line-height-1{
+    line-height: 0.1rem;
+}
+.larghezza-massima{
+    width: 100%;
+}
 .centratura{
     margin:0 auto;
 }
@@ -35,6 +41,9 @@ img{
     vertical-align: center;
     padding: 0.5rem 0rem;
 }
+.scroll{
+    overflow: scroll;
+}
 .padding-generale{
     padding: 1em;
 }
@@ -47,9 +56,14 @@ img{
 .padding-verticale-1{
     padding: 1em 0em;
 }
-
 .padding-verticale-2{
     padding: 2em 0em;
+}
+.padding-verticale-4{
+    padding: 4em 0em;
+}
+.padding-bottom-16{
+    padding-bottom: 16em;
 }
 
 /* IN COMUNE */
@@ -88,17 +102,19 @@ hr{
 }
 .linea-corta{
     width: 30%;
+    border: 0px;
+    border-top: 1px solid #d9d9db;
 }
-.box{
-    width: 100%;
-    
-}
+
 .bottone{
     background-color: #0160ff;
     color: white;
     padding: 0.5em 1em;
     font-size: 0.8rem;
     text-decoration: none;
+
+   display: inline-block;
+   line-height: normal;
    
 }
 
@@ -144,11 +160,38 @@ strong{
 .fa-check{
     color: blue;
 }
+/* Tipografia quadrato grande*/
+.titolo-quadrato{
+    padding: 0em;
+    font-size: 2rem;
+    position: relative;
+}
+.sottotitolo-quadrato{
+    font-size: 0.5rem;
+    font-weight: 500;
+    width: 100%;
+}
+.posizione-sottotitolo-quadrato{
+    position: absolute;
+    top: 2rem;
+    right: 0rem;
+}
+.grassetto-quadrato{
+    font-weight: 900;
+}
+/* simbolo copyright  */
+.simbolo-copyright{
+    font-size: 0.7rem;
+    position: absolute;
+    left: 8.3rem;
+    top: 0.3rem;
+}
 
 /* HEADER */
 header{
     width: 100%;
     height: 80px;
+    min-width: 1100px;
     position: fixed;
     z-index: 1;
     top: 0;
@@ -157,6 +200,8 @@ header{
     padding: 0em 1.5em;
 
     background-color: #ffffff;
+
+    border-bottom: 1px solid lightgray;
 }
 header img{
     height: 40%;
@@ -190,10 +235,19 @@ header a{
     padding-bottom: 1em;
     color: #5d5f5c;
 }
-.utenti{
+.dimensione-icona{
     font-size: 0.1;
 }
-
+.posizione-icona{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.carta li{
+    position: relative;
+    padding-left: 1.5em;
+    padding-bottom: 2em;
+}
 /* Partner */
 .bottone-negativo{
     border:1px solid #5d5f5c;
@@ -201,7 +255,7 @@ header a{
     color: #5d5f5c;
 }
 
-/* Operazioni */
+/* Card Operazioni */
 .carta-operazioni{
     border: none;
 }
