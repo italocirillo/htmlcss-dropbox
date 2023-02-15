@@ -428,6 +428,9 @@ footer ul{
 .domanda{
     display:none;
 }
+.frecce{
+    padding-left: 20em;
+}
 
 /*Effetto-bordo-header*/
 .effetto-bordo:hover{
