@@ -411,3 +411,9 @@ footer ul{
     border: 5px solid red;
     height: 250px;
 }
+
+
+/* EFFETTI */
+.bottone:hover{
+    opacity: 0.5;
+}
